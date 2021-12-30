@@ -1,6 +1,7 @@
 provider "aws" {
 }
 
+
 resource "aws_instance" "my_server_web" {
   ami                    = "ami-98908709870987"
   instance_type          = "t3.micro"
