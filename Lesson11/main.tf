@@ -3,8 +3,6 @@ provider "aws" {
 }
 
 
-
-
 resource "aws_security_group" "my_webserver" {
   name        = "WebServer Security Group"
   description = "My First SecurityGroup"
